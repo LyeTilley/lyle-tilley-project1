@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boat Ride Adventures -Kanu Sobti</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English:400,400i|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">    
+</head>
+<body>
+    <header class="contactHeader"id="contact">
+        <div class="wrapper">
+            <nav class="navigation">
+                <ul class="navigationList">
+                    <li class="navItem"><a class="navLink" href="index.html">Home</a></li>
+                    <li class="navItem"><a class="navLink" href="#about">About</a></li>
+                    <li class="navItem"><a class="navLink" href="blog.html">Blog</a></li>
+                    <li class="navItem"><a class="navLink" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contactHeading wrapper">
+            <h1>Get in touch</h1>
+        </div>   
+    </header>
+    <main class="contactMainContainer">
+        <div class="contactMain wrapper">
+            <section class="formSection">
+                <form class="searchForm" action="sendEmail.php" method="POST" autocomplete="off" name="applicationForm"> 
+                        <fieldset>
+                            <label for="name" class="visuallyHidden">Name</label>
+                            <input class="searchFormInputName" type="name" name="name" id="name" placeholder="Name" required="true">
+                            <label for="email" class="visuallyHidden">Email</label>
+                            <input class="searchFormInputEmail" type="email" name="email" id="email" placeholder="Email address" required="true">
+                            <label for="textArea" class="visuallyHidden">TextArea</label>
+                            ​<textarea id="txtArea" id="textArea" placeholder="Message" rows="10" cols="18"></textarea>
+                            <input class="searchFormButton" type="submit" value="Submit">    
+                        </fieldset>
+                    </form>
+            </section>        
+            <section class="leftSection">
+                <div class="socialIcons">
+                    <div class="socialMediaIcons">
+                        <a href="https://facebook.com">
+                            <i class="fab fa-facebook-f"><span class="visuallyHidden">Instagram</span></i>
+                        </a>
+                    </div>
+                    <div class="socialMediaIcons">
+                        <a href="https://instagram.com">
+                            <i class="fab fa-instagram"><span class="visuallyHidden">Facebook</span></i>
+                        </a>
+                    </div>
+                    <div class="socialMediaIcons">
+                        <a href="https://twitter.com">
+                            <i class="fab fa-twitter"><span class="visuallyHidden">Snapchat</span></i>
+                        </a>
+                    </div>
+                    <div class="socialMediaIcons">
+                        <a href="https://whatsapp.com">
+                            <i class="fab fa-whatsapp"><span class="visuallyHidden">Twitter</span></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contactEmail">
+                    <p>info@gmail.com</p>
+                </div>
+                <div class="contactAddress">
+                    <p>123-456-7890</p> 
+                    <p>123 Queen Street West, Unit 10</p>
+                    <p>Toronto, Ontario</p>
+                    <p>M5V2D5</p>
+                </div>     
+            </section>
+        </div>
+    </main>
+    <footer class="galleryCopyright">
+        <p>Copyright@2019 <a class="galleryLink" href="https://hackeryou.com">HackerYou</a></p>
+    </footer> 
+</body>
+</html>
