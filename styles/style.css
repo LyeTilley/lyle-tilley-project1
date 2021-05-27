@@ -1,0 +1,1332 @@
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+  }
+  
+  article, aside, footer, nav, section, footer {
+      display: block
+  }
+
+  
+  a:active, a:hover {
+    outline: 0;
+  }
+  
+
+
+  mainHomeMenu {
+      text-align: left;
+  }
+
+  img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  form {
+    margin: 0;
+  }
+  
+  fieldset {
+    border: 1px solid black;
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+  }
+  
+  legend {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+  }
+  
+  button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+  }
+  
+  button, input {
+    line-height: normal;
+  }
+  
+  button, select {
+    text-transform: none;
+  }
+  
+  button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+  
+  button[disabled], html input[disabled] {
+    cursor: default;
+  }
+  
+  input[type=checkbox], input[type=radio] {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0;
+  }
+  
+  input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  
+  input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+  
+  textarea {
+    overflow: auto;
+    vertical-align: top;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  button, html, input, select, textarea {
+    color: #222;
+  }
+  
+  ::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  
+  ::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .chromeframe {
+    margin: .2em 0;
+    background: #ccc;
+    color: #000;
+    padding: .2em 0;
+  }
+  
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: '';
+    clear: both;
+    height: 0;
+  }
+  
+  * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .visuallyHidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+    clip: rect(0 0 0);
+    overflow: hidden;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  h1, h2, h3, h4, body, ul, li, p {
+      font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    display: block;
+    width: 100%;
+  }
+  
+  h1, h2, h3, h4, button {
+    font-family: "IM Fell English", serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  h1 {
+    font-size: 7.9rem;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 0;
+    color: #fdd908;
+  }
+  
+  h2 {
+    font-size: 4.5rem;
+    font-style: 400;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 99.8px;
+    font-weight: center;
+     }
+  
+  h3 {
+    font-size: 4rem;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 58px;
+    letter-spacing: 1.3px;
+  }
+  
+  h4 {
+    font-size: 2.5rem;
+    font-style: italic;
+    line-height: 58px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+  }
+  
+  p, li, input, textarea {
+    font-size: 2rem;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  nav a {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 29px;
+    letter-spacing: 1px;
+  }
+  
+  .findOutMoreButton a,
+  .readMoreButton a,
+  .searchFormButton {
+    font-size: 2.24rem;
+    text-align: center;
+    line-height: 41.6px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "IM Fell English", serif;
+    color: #0d457f;
+    font-style: italic;
+    background: #fdd908;
+    padding: 10px 20px;
+  }
+  
+  .skipLink {
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    z-index: 999;
+    background: white;
+    color: black;
+  }
+  
+  .skipLink:focus {
+    left: 10px;
+  }
+  
+  header {
+    background-image: url(../Assets/Boat-Ride-Adventures-final-assets/home-header.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    padding: 2% 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+  }
+  
+  header .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  header .navigation .navigationList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 38%;
+  }
+  
+  .heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .heading h1 {
+    width: 45%;
+    padding-top: 32%;
+    margin-left: 1%;
+  }
+  
+  .heading h1 .headingAdventures {
+    display: block;
+  }
+  
+  nav a:hover {
+    color: #fdd908;
+    border-bottom: 3px solid #fdd908;
+    letter-spacing: 2px;
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+  }
+  
+  .rightOverlappingImage {
+    width: 55%;
+    position: absolute;
+    bottom: -12rem;
+    right: 0rem;
+    z-index: 10;
+  }
+  
+  .newDestinations {
+    background-color: #eafefc;
+    position: relative;
+    padding: 20% 0;
+  }
+  
+  .newDestinations .firstLists {
+  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .newDestinations .firstLists .listItems {
+    width: 30%;
+    justify-content: relative;
+    display: flex;
+  }
+  
+  .iconContainer {
+    width: 100px;
+    height: 40px;
+    background: #fdd908;
+    border-radius: 50%;
+    margin-top: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .fas {
+    color: #0d457f;
+    font-size: 2rem;
+  }
+
+  .programMainContainer {
+    background: #0d457f;
+    padding: 4% 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .programMainContainer .programContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 45%;
+  } */
+    */
+
+   
+  .programMainContainer .programContainer .programList {
+    width: 50%;
+   
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  
+  
+  .programMainContainer .programContainer .programList h3, .programMainContainer .programContainer .programList p {
+    color: #ffffff;
+  }
+  
+  .readMoreButton a:hover,
+  input[type="submit"]:hover {
+    -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    background-image: -webkit-gradient(linear, left top, right top, from(#09e5e0), color-stop(50%, #829395), to(#27c8bb));
+    background-image: linear-gradient(to right, #09e5e0 0%, #829395 50%, #27c8bb 100%);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-position: right center;
+    background-size: 200% auto;
+  }
+  
+  .findOutMoreButton a:hover {
+    -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    background-image: -webkit-gradient(linear, left top, right top, from(#097be5), color-stop(50%, #8dedf8), to(#27c8bb));
+    background-image: linear-gradient(to right, #097be5 0%, #8dedf8 50%, #27c8bb 100%);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-position: right center;
+    background-size: 200% auto;
+  }
+  
+  .leftImage {
+    position: relative;
+    top: -9rem;
+  }
+  
+  .leftImage img {
+    -webkit-box-shadow: 20px 20px;
+            box-shadow: 20px 20px;
+    color: #fdd908;
+  }
+  
+  .rightImage {
+    position: relative;
+    bottom: -14rem;
+  }
+  
+  .rightImage img {
+    -webkit-box-shadow: -20px 20px 0px 0px #fdd908;
+    box-shadow: -20px 20px 0px 0px #fdd908;
+  }
+  
+  .leftDescription {
+    padding: 10% 0 10% 20%;
+  }
+  
+  .leftDescription h3 {
+    text-align: right;
+  }
+  
+  .rightDescription {
+    padding: 2% 20% 10% 0;
+  }
+  
+  .readMoreButton, .findOutMoreButton {
+    margin: 5% 0;
+  }
+  
+  .extraVacationContainer {
+    background: #eafefc;
+  }
+  
+  .extraVacationContainer .extraVacation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 6%;
+  }
+  
+  .extraVacationContainer .extraVacation h3 {
+    color: #0d457f;
+    padding-bottom: 1%;
+  }
+  
+  .winTripContainer {
+    background-color: #eafefc;
+    padding: 5% 0;
+  }
+  
+  .winTripContainer .winTrip {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  
+  .winTripImage img {
+    -webkit-box-shadow: -20px 20px 0px 0px #fdd908;
+    box-shadow: -20px 20px 0px 0px #fdd908;
+  }
+  
+  .winTripDescription {
+    margin-left: 10%;
+    width: 64%;
+  }
+  
+  .winTripDescription h3 {
+    color: #0d457f;
+  }
+  
+  .gallery {
+    background: #0d457f;
+    padding: 5% 0 0;
+  }
+  
+  .gallery .galleryImgRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .galleryImg {
+    width: 32%;
+  }
+  
+  .galleryImg img {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .galleryImg img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  
+  .galleryCopyright {
+    background: #fdd908;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  .galleryCopyright .galleryLink {
+    color: #0d457f;
+  }
+  
+  .contactHeader {
+    background-image: url(../Assets/Boat-Ride-Adventures-final-assets/contact-header.jpg);
+    background-repeat: no-repeat;
+    height: 36vw;
+    width: 100vw;
+    background-size: contain;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .contactHeader .navigationList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 33%;
+  }
+  
+  .contactHeading {
+    position: relative;
+    top: -24rem;
+  }
+  
+  .contactHeading h1 {
+    color: #ffffff;
+  }
+  
+  .contactMainContainer {
+    background: #eafefc;
+    padding: 5% 0 0;
+  }
+  
+  .contactMainContainer .contactMain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .contactMainContainer .contactMain .formSection {
+    background: #0d457f;
+    position: relative;
+    top: -18rem;
+    right: -5rem;
+    -webkit-box-shadow: 20px 20px #fdd908;
+            box-shadow: 20px 20px #fdd908;
+    width: 70%;
+    padding: 4%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  
+  .searchForm {
+    border: none;
+  }
+  
+  .searchForm input {
+    border: none;
+    width: 47%;
+    background: #0d457f;
+    border-bottom: 3px solid #fdd908;
+    padding: 1% 2%;
+    margin: 2% 0 4%;
+  }
+  
+  .searchForm textarea {
+    width: 100%;
+    background: #0d457f;
+    border: 3px solid #fdd908;
+    background: #0d457f;
+    padding: 1% 2%;
+    margin: 2% 0 4%;
+  }
+  
+  .searchForm .searchFormButton {
+    width: 100%;
+    background: #fdd908;
+    color: #0d457f;
+  }
+  
+  input[type="submit"]:focus {
+    font-size: 2.9rem;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+  
+  input[type="email"]:focus,
+  input[type="name"]:focus {
+    background-color: #51e0d9;
+    border: #0dca9b;
+  }
+  
+  .contactMainContainer input[type="email"]:focus,
+  .contactMainContainer input[type="name"]:focus {
+    background-color: #488eeb;
+    border: #0525b6;
+  }
+  
+  .searchForm .searchFormInputName {
+    margin-right: 2%;
+  }
+  
+  .searchForm .searchFormInputEmail {
+    margin-left: 2%;
+  }
+  
+  .socialIcons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .socialIcons .socialMediaIcons i {
+    color: #0d457f;
+    padding: 8px;
+    font-size: 2.3rem;
+  }
+  
+  .socialIcons .fa-instagram:hover {
+    color: #8a3ab9;
+  }
+  
+  .socialIcons .fa-facebook-f:hover {
+    color: #3b5998;
+  }
+  
+  .socialIcons .fa-whatsapp:hover {
+    color: #25D366;
+  }
+  
+  .socialIcons .fa-twitter:hover {
+    color: #00aced;
+  }
+  
+  .contactEmail {
+    padding-bottom: 3%;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  :-ms-input-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  ::-ms-input-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  ::placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  .searchFormButton {
+    width: 100%;
+    padding: 1%;
+  }
+  
+  footer.galleryCopyright {
+    margin-top: 0;
+  }
+  
+  .blogHeader {
+    background-image: url(../Assets/Boat-Ride-Adventures-final-assets/blog-header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 35.7vw;
+   
+    display: flex;
+   text-align: left;
+  }
+  
+  .blogHeader .navigationList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 33%;
+  }
+  
+  .blogHeading {
+    position: left;
+    top: -43%;
+  }
+  
+  .blogHeading h1 {
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .blogMainContainer {
+    background: #eafefc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    padding: 5% 0;
+  }
+  
+  .blogMainContainer aside {
+    width: 35%;
+    margin-top: 3%;
+  }
+  
+  .blogMainContainer aside .asideContainer {
+    background: #0d457f;
+  }
+  
+  .blogMainContainer .rightSection {
+    width: 60%;
+  }
+  
+  .blogSideWrittenContainer {
+    padding: 2% 6% 4%;
+  }
+  
+  .blogSideWrittenContainer h4 {
+    color: #fdd908;
+  }
+  
+  .blogSideWrittenContainer p {
+    color: white;
+  }
+  
+  .blogSideWrittenContainer li {
+    color: #ffffff;
+    list-style-type: disc;
+  }
+  
+  .blogSideImg {
+    position: relative;
+    top: -1rem;
+    left: -6rem;
+  }
+  
+  .blogPostImg {
+    position: relative;
+    top: -24rem;
+    right: -3.75rem;
+  }
+  
+  .blogPostImg img {
+    -webkit-box-shadow: -20px 20px 0px 0px #fdd908;
+    box-shadow: -20px 20px 0px 0px #fdd908;
+  }
+  
+  .blogPostContainer {
+    margin-top: 10rem;
+    padding: 5% 0 8%;
+    -webkit-box-shadow: -3px 4px #fdd908;
+            box-shadow: -3px 4px #fdd908;
+    position: relative;
+    top: -5rem;
+    right: -2rem;
+    overflow-x: hidden;
+  }
+  
+  .blogPostContainer h3 {
+    color: #0d457f;
+  }
+  
+  .blogPostContainer p {
+    padding: 1% 0;
+  }
+  
+  .commentsContainer {
+    margin-bottom: 1%;
+    padding: 2% 0;
+  }
+  
+  .commentsContainer h3 {
+    color: #0d457f;
+  }
+  
+  .commentsContainer .commentsDescription {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 3%;
+  }
+  
+  .commentsContainer .commentsDescription .commentsImage {
+    width: 20%;
+  }
+  
+  .commentsText {
+    width: 68%;
+    margin-left: 2%;
+  }
+  
+  .commentsText p {
+    padding: 1% 0;
+  }
+  
+  .commentsText .blueBold {
+    color: #0d457f;
+    font-weight: bold;
+    padding: 0;
+  }
+  
+  .blogForm input, .blogForm textarea {
+    background: #eafefc;
+  }
+  
+  .blogForm ::-webkit-input-placeholder {
+    color: #0d457f;
+    opacity: 1;
+  }
+  
+  .blogForm :-ms-input-placeholder {
+    color: #0d457f;
+    opacity: 1;
+  }
+  
+  .blogForm ::-ms-input-placeholder {
+    color: #0d457f;
+    opacity: 1;
+  }
+  
+  .blogForm ::placeholder {
+    color: #0d457f;
+    opacity: 1;
+  }
+  
+  .blogForm .searchFormButton {
+    width: 100%;
+    padding: 0.5%;
+    background: #0d457f;
+    color: #fdd908;
+  }
+  
+  @media (max-width: 1306px) {
+    .contactHeading {
+      top: -8rem;
+    }
+  }
+  
+  /* Portrait tablet and small desktops */
+  @media (max-width: 940px) {
+    .wrapper {
+      width: 90%;
+    }
+    .heading h1 {
+      width: 100%;
+      padding-top: 22%;
+      margin: 4% 13%;
+    }
+    h1 {
+      font-size: 7.5rem;
+    }
+    h2 {
+      font-size: 4.2rem;
+      line-height: 50px;
+    }
+    h3 {
+      font-size: 3rem;
+      line-height: 50px;
+    }
+    h4 {
+      font-size: 2.1rem;
+      line-height: 44px;
+    }
+    p, li, input, textarea {
+      font-size: 1.8rem;
+      letter-spacing: 0.5px;
+    }
+    .findOutMoreButton a,
+    .readMoreButton a,
+    input[type="submit"] {
+      font-size: 1.8rem;
+      padding: 5px 13px;
+    }
+    header .navigation .navigationList {
+      width: 50%;
+    }
+    .navigationList li {
+      padding-right: 1.8rem;
+    }
+    .rightOverlappingImage {
+      display: none;
+    }
+    .newDestinations {
+      padding: 10% 0;
+    }
+    .newDestinations .firstLists {
+      display: flex;
+    }
+    .newDestinations .firstLists .listItems {
+      width: 100%;
+      padding-bottom: 3%;
+    }
+    .iconContainer {
+      width: 100px;
+      height: 40px;
+      margin-top: 1%;
+      margin-right: 2%;
+    }
+    .programMainContainer {
+      padding: 2% 0;
+    }
+    .programMainContainer .programContainer {
+      width: 48%;
+    }
+    .leftImage {
+      top: -4rem;
+    }
+    .rightImage {
+      bottom: -2rem;
+    }
+    .leftDescription {
+      padding: 19% 0 0 18%;
+    }
+    .winTripDescription {
+      width: 56%;
+      margin-left: 3%;
+    }
+    .blogHeader {
+      background-size: cover;
+      background-position: center;
+    }
+    .blogSideImg {
+      left: -3rem;
+    }
+    .blogSideWrittenContainer {
+      padding: 2% 10% 4%;
+    }
+    .blogPostContainer {
+      right: -2.15rem;
+    }
+    .commentsText {
+      width: 75%;
+      margin-left: 5%;
+    }
+    .contactHeading {
+      top: 0rem;
+    }
+    .contactMainContainer .contactMain .formSection {
+      top: -7rem;
+      right: 14rem;
+    }
+    .leftSection {
+      margin: 0 38% 2%;
+    }
+  }
+  
+  /* Landscape phone to portrait tablet */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 6rem;
+    }
+    h2 {
+      font-size: 4rem;
+      line-height: 48px;
+    }
+    h3 {
+      font-size: 2.8rem;
+      line-height: 48px;
+    }
+    h4 {
+      font-size: 2rem;
+      line-height: 44px;
+    }
+    p, li, input, textarea {
+      font-size: 1.6rem;
+      letter-spacing: 0.5px;
+    }
+    .findOutMoreButton a,
+    .readMoreButton a,
+    button {
+      font-size: 1.7rem;
+      padding: 5px 13px;
+    }
+    header .navigation .navigationList {
+      width: 58%;
+    }
+    .programMainContainer {
+      display: block;
+    }
+    .programMainContainer .programContainer {
+      width: 100%;
+    }
+    .leftDescription,
+    .rightDescription {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 5% 10%;
+    }
+    .leftImage img, .rightImage img {
+      -webkit-box-shadow: none;
+              box-shadow: none;
+    }
+    .extraVacationContainer .extraVacation {
+      padding: 6% 0;
+    }
+    .winTripContainer .winTrip {
+      display: block;
+    }
+    .winTripImage img {
+      -webkit-box-shadow: none;
+              box-shadow: none;
+    }
+    .winTripDescription {
+      margin: 0;
+      width: 100%;
+    }
+    .winTripDescription h3 {
+      text-align: center;
+    }
+    .winTripDescription .findOutMoreButton {
+      text-align: center;
+    }
+    .galleryImg {
+      width: 48%;
+    }
+    .galleryImg:nth-child(3) {
+      display: none;
+    }
+    .contactHeading {
+      top: -4rem;
+    }
+    .contactMainContainer .contactMain .formSection {
+      right: 11rem;
+      width: 73%;
+      top: -9rem;
+    }
+    .blogHeading {
+      top: 5%;
+    }
+    .blogPostImg {
+      top: -11rem;
+    }
+    .blogPostContainer {
+      right: -2.05rem;
+      top: 8rem;
+    }
+    .commentsContainer {
+      margin: 25% 0 0 auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 5rem;
+    }
+    h2 {
+      font-size: 3rem;
+      line-height: 46px;
+    }
+    h3 {
+      font-size: 2.6rem;
+      line-height: 46px;
+    }
+    h4 {
+      font-size: 1.8rem;
+      line-height: 42px;
+    }
+    p, li, input, textarea {
+      font-size: 1.6rem;
+      letter-spacing: 0.5px;
+    }
+    .findOutMoreButton a,
+    .readMoreButton a,
+    button {
+      font-size: 2rem;
+      line-height: 37px;
+      padding: 5px 10px;
+    }
+    header .navigation .navigationList {
+      width: 100%;
+    }
+    .heading h1 {
+      width: 100%;
+      padding-top: 44%;
+      margin: 0;
+    }
+    .winTripContainer .wrapper {
+      max-width: 100%;
+      width: 100%;
+    }
+    .winTripContainer .winTripDescription {
+      padding: 10%;
+    }
+    .gallery .galleryImgRow {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column wrap;
+              flex-flow: column wrap;
+    }
+    .galleryImg {
+      width: 100%;
+      margin-bottom: 5%;
+    }
+    .galleryImg img {
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s;
+    }
+    .galleryImg img:hover {
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8);
+    }
+    .galleryImg:nth-child(3) {
+      display: block;
+    }
+    .blogMainContainer {
+      display: block;
+    }
+    .blogMainContainer aside {
+      width: 100%;
+      margin: 4% 0;
+    }
+    .blogMainContainer .rightSection {
+      width: 90%;
+    }
+    .blogSideImg {
+      position: static;
+    }
+    .blogSideImg img {
+      border: 14px solid #fdd908;
+    }
+    .blogPostImg {
+      position: static;
+    }
+    .blogPostImg img {
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      border: 14px solid #fdd908;
+    }
+    .blogPostContainer {
+      position: static;
+      margin-top: 0;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+    }
+    .blogPostContainer .blogPostDescription h3 {
+      text-align: center;
+    }
+    .blueBold {
+      letter-spacing: -0.5px;
+    }
+    .blogForm input, .formSection input {
+      width: 100%;
+    }
+    .contactHeading {
+      top: 1rem;
+    }
+    .contactMainContainer .contactMain .formSection {
+      top: -2.4rem;
+      right: 2.2rem;
+      width: 95%;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 2.4rem;
+      line-height: 40px;
+    }
+    h3 {
+      font-size: 2.2rem;
+      line-height: 40px;
+    }
+    h4 {
+      font-size: 1.7rem;
+      line-height: 40px;
+    }
+    p, li input, textarea {
+      font-size: 1.5rem;
+      letter-spacing: 0.5px;
+      line-height: 25px;
+    }
+    nav a {
+      font-size: 1.7rem;
+    }
+    .navigationList li {
+      padding-right: 0.8rem;
+    }
+    .heading
+  h1 {
+      padding-top: 63%;
+    }
+    .blogHeader {
+      height: 50vw;
+    }
+    .blogHeading {
+      top: 5%;
+    }
+    .blogMainContainer {
+      padding: 1% 0% 5%;
+    }
+    .commentsText p {
+      line-height: 21px;
+    }
+    input {
+      width: 100%;
+    }
+    .searchForm .searchFormInputEmail {
+      margin-left: 0;
+    }
+    .contactHeading {
+      top: 1.3rem;
+    }
+    .contactHeading h1 {
+      font-size: 3.8rem;
+    }
+    .contactMainContainer .contactMain .formSection {
+      top: -1.6rem;
+      right: 0rem;
+      width: 100%;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+    }
+    .leftSection {
+      margin: 0 27.2% 2%;
+    }
+  }
