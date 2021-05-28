@@ -384,16 +384,19 @@ html {
   }
     .iconContainerLeft, .iconContainerRight {
       width: 48%;
+      display: flex;
     }
 
     .iconContainerLeft > p, .iconContainerRight > p {
       margin-bottom: 80px;
+      display: flex;
 
     }
 
     .newDestinations {
 
       padding: 200px 0;
+      display: flex;
 
     }
 
@@ -420,6 +423,7 @@ html {
     .iconContainer p {
       margin-left: 65px;
       text-align: justify;
+      display: flex;
       
 
     }
