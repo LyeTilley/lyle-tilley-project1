@@ -685,6 +685,50 @@ html {
   }
 
 
+  .navigationList {
+    width: 100%;
+  }
+  
+  .navigationList ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navigationList ul li {
+    padding: 80px 30px 0 30px;
+  }
+  
+  .navigationList ul li:first-child {
+    padding-left: 0;
+  }
+  
+
+  @media (max-width: 1358px) {
+    .navigationList {
+      padding-left: 50px;
+    }
+    .contactLeft {
+      width: 90%;
+    }
+  
+    .contactLeft {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .navigationList {
+      padding-left: 100px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .contactLeft {
+      width: 75%;
+    }
+  }
+  
+
 
 
   
