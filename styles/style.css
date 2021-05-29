@@ -683,6 +683,10 @@ html {
     display: flex;
     flex-direction: row;
   }
+
+
+
+
   
   .searchForm {
     border: none;
@@ -728,6 +732,15 @@ html {
     background-color: #488eeb;
     border: #0525b6;
   }
+
+  .contactLeft {
+  width: 30%;
+  line-height: 1.4;
+  padding-top: 80px;
+  padding-bottom: 150px;
+  letter-spacing: 1.2px;
+  text-align: left;
+}
   
   .searchForm .searchFormInputName {
     margin-right: 2%;
@@ -765,8 +778,13 @@ html {
   
   .contactEmail {
     padding-bottom: 3%;
+    text-align: left;
+
   }
   
+  .contactAddress {
+    text-align: left;
+  }
 
   
   :-ms-input-placeholder {
