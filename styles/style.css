@@ -319,6 +319,7 @@ html {
      /* before I had in the setup snippet --- */
 
   
+     
   header {
     background-image: url(../Assets/Boat-Ride-Adventures-final-assets/home-header.jpg);
     background-repeat: no-repeat;
@@ -374,36 +375,85 @@ html {
   }
 
 
+  /* gary rosen - credit for testing website  */
 
+  .site-map-section {
+    background: #EAFEFC;
+    padding-top: 200px;
+}
 
-  .iconContainer {
+.site-map {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    padding: 30px 0 120px 0;
+}
+
+.site-map-section h2, .vacation-days-section h2, .trip-text-side h2 {
+    color: #0D457F;
+}
+
+.site-map-left,
+.site-map-right  {
+    width: 45%;
+}
+
+.site-map-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    color: #0D457F;
+    background-color: #FDD908;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.h2-icons {
+    display: flex;
+}
+
+.site-map p {
+    margin-left: 62px;
+    text-align: justify;
+}
+
+.site-map-left>p,
+.site-map-right>p {
+    margin-bottom: 50px;
+}
+
+
+/* 
+  .iconContainer {
+    justify-content: relative;
+    width: 45%;
 
   }
     .iconContainerLeft, .iconContainerRight {
       width: 48%;
-      display: flex;
     }
 
     .iconContainerLeft > p, .iconContainerRight > p {
       margin-bottom: 80px;
-      display: flex;
+      width: 45%;
 
     }
 
     .newDestinations {
 
-      padding: 200px 0;
-      display: flex;
+      padding: 200px;
+      width: 40%;
+
 
     }
 
     .iconAndText {
-      display: flex;
-
     
+      width: 40%;
+
     }
 
     .icons {
@@ -412,7 +462,7 @@ html {
       background-color: #fdd908;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: relative;
       border-radius: 50%;
       margin-right: 15px;
       font-size: 6rem;
@@ -421,12 +471,11 @@ html {
     }
 
     .iconContainer p {
-      margin-left: 65px;
-      text-align: justify;
-      display: flex;
+      width: 45%;
+  
       
 
-    }
+    } */
   
 
   .fas {
@@ -952,7 +1001,7 @@ html {
       display: flex;
     }
     .newDestinations .firstLists .listItems {
-      width: 100%;
+      width: 45%;
       padding-bottom: 3%;
     }
     .iconContainer {
