@@ -336,14 +336,14 @@ html {
     display: flex;
   }
   
-  header .navigation .navigationList {
+  /* header .navigation .navigationList {
   
     display: flex;
    flex-wrap: wrap;
       justify-content: space-between;
     width: 38%;
     text-align: left;
-  }
+  } */
   
 .heading {
 
@@ -647,10 +647,10 @@ html {
     color: #fdd908;
   }
   
-  .contactHeader .navigationList {
+  /* .contactHeader .navigationList {
     display: flex;
     width: 33%;
-  }
+  } */
   
   .contactHeading {
     position: relative;
@@ -683,9 +683,132 @@ html {
     display: flex;
     flex-direction: row;
   }
+/* 
+  body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  header {
+    background: #eaeaea;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 0 1.25rem;
+  }
+  
+  li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  li:hover a {
+    text-decoration: underline;
+  }
+  
+  /* Mobile Toggle */
+  
+  .nav-toggle {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .nav-toggle img {
+    width: 1.5rem;
+    transition: 300ms all ease;
+  }
+  
+  .nav-toggle:hover img {
+    opacity: 0.6;
+  }
+  
+  .open {
+    height: 100vh;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  
+  /* Mobile */
+  @media all and (max-width: 720px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav {
+      height: 0;
+      width: 100%;
+      overflow: hidden;
+      transition: 250ms height ease-in-out;
+    }
+  
+    li {
+      display: block;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+  
+    li a {
+      font-size: 1.4rem;
+    }
+  
+    .nav-toggle {
+      display: block;
+    }
+  } */
+  
+
+  @media all and (max-width: 720px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav {
+      height: 0;
+      width: 100%;
+      overflow: hidden;
+      transition: 250ms height ease-in-out;
+    }
+  
+    li {
+      display: block;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+  
+    li a {
+      font-size: 1.4rem;
+    }
+  
+    .nav-toggle {
+      display: block;
+    }
+  }
 
 
-  .navigationList {
+  /* .navigationList {
     width: 100%;
   }
   
@@ -726,7 +849,7 @@ html {
     .contactLeft {
       width: 75%;
     }
-  }
+  } */
   
 
 
@@ -863,12 +986,12 @@ html {
     display: flex;
    text-align: left;
   }
-  
+/*   
   .blogHeader .navigationList {
     display: flex;
     width: 33%;
   }
-  
+   */
   .blogHeading {
     position: left;
     top: -43%;
@@ -910,11 +1033,11 @@ html {
   .blogSideWrittenContainer p {
     color: white;
   }
-  
+/*   
   .blogSideWrittenContainer li {
     color: #ffffff;
     list-style-type: disc;
-  }
+  } */
   
   .blogSideImg {
     position: relative;
@@ -1047,12 +1170,12 @@ html {
       font-size: 1.8rem;
       padding: 5px 13px;
     }
-    header .navigation .navigationList {
+    /* header .navigation .navigationList {
       width: 50%;
     }
     .navigationList li {
       padding-right: 1.8rem;
-    }
+    } */
     .rightOverlappingImage {
       display: none;
     }
@@ -1140,19 +1263,19 @@ html {
       font-size: 2rem;
       line-height: 44px;
     }
-    p, li, input, textarea {
+    /* p, li, input, textarea {
       font-size: 1.6rem;
       letter-spacing: 0.5px;
-    }
+    } */
     .findOutMoreButton a,
     .readMoreButton a,
     button {
       font-size: 1.7rem;
       padding: 5px 13px;
     }
-    header .navigation .navigationList {
+    /* header .navigation .navigationList {
       width: 58%;
-    }
+    } */
     .programMainContainer {
       display: block;
     }
@@ -1244,9 +1367,9 @@ html {
       line-height: 37px;
       padding: 5px 10px;
     }
-    header .navigation .navigationList {
+    /* header .navigation .navigationList {
       width: 100%;
-    }
+    } */
     .heading h1 {
       width: 100%;
       padding-top: 44%;
@@ -1345,10 +1468,10 @@ html {
     }
     nav a {
       font-size: 1.7rem;
-    }
+    /* }
     .navigationList li {
       padding-right: 0.8rem;
-    }
+    } */
     .heading
   h1 {
       padding-top: 63%;
