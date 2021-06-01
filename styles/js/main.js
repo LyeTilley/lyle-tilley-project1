@@ -1,4 +1,4 @@
-alert('Hello World!');
+alert('Welcome to Lyles Boat Ride Adventures!');
 
 const slides = document.querySelectorAll('.slide');
 const next = document.querySelector('#next');

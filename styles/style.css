@@ -216,7 +216,7 @@ html {
   }
   
   h1, h2, h3, h4 {
-      font-size: 2rem;
+      font-size: 10rem;
 
   }
 
@@ -247,14 +247,17 @@ html {
     width: 100%;
 
   }
+
+  .slide {
+    text-decoration: black;
+  }
   
   h1 {
     font-size: 10rem;
     font-weight: 400;
     font-style: italic;
     text-transform: uppercase;
-
-    color: #fdd908;
+    color: #e6ce48;
   }
   
   h2 {
@@ -283,6 +286,13 @@ html {
     text-transform: uppercase;
   }
   
+
+  h5 {
+
+    font-size: 3rem;
+    text-transform: uppercase;
+
+  }
   p, li, input, textarea {
     font-size: 2rem;
     line-height: 28px;
@@ -602,6 +612,7 @@ body {
   height: 100%;
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
+  text-align: relative;
 }
 
 .slide.current {
@@ -671,31 +682,26 @@ body {
 
 
 /* Backgorund Images */
+
+/* Learning credit to - Traversy Media -- Brad Traversy  */
  
 .slide:first-child {
   background: url('https://images.boats.com/resize/wp/2/files/2021/03/Bowrider.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(2) {
-  background: url('https://source.unsplash.com/BeOW_PJjA0w/1600x900') no-repeat
+  background: url('https://www.visitflorida.com/content/dam/visitflorida/en-us/images/articles/2012/june/1340299095__dsc0635.jpg.1024.500.rendition') no-repeat
     center top/cover;
 }
 .slide:nth-child(3) {
-  background: url('https://source.unsplash.com/TMOeGZw9NY4/1600x900') no-repeat
+  background: url('https://flamingoeverglades.com/wp-content/uploads/sites/30/2018/12/flamingo-everglades-Florida-1-1412x552.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('https://source.unsplash.com/yXpA_eCbtzI/1600x900') no-repeat
+  background: url('https://flamingoeverglades.com/wp-content/uploads/sites/30/2018/07/Flamingo-Everglades-Houseboat-Rental3.jpg') no-repeat
     center top/cover;
 }
-.slide:nth-child(5) {
-  background: url('https://source.unsplash.com/ULmaQh9Gvbg/1600x900') no-repeat
-    center top/cover;
-} 
-.slide:nth-child(6)  {
-  background: url('https://source.unsplash.com/ggZuL3BTSJU/1600x900') no-repeat
-    center center/cover;
-}
+
 .menu-wrap .menu {
   position: fixed;
   top: 0;
@@ -913,6 +919,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #fdd908;
+    display: flex;
   }
   
   /* .contactHeader .navigationList {
